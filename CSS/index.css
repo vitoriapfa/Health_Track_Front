@@ -1,0 +1,316 @@
+
+@font-face {
+    font-family: Sansation Light;
+    src: url(../fonts/Sansation_Light.ttf)
+  }
+
+a {
+    text-decoration: none;
+    color: #000000;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     /* não atribui as margens ao container*/
+}
+
+html{
+    font-size: 16px;
+}
+
+/***************** FIM PÁGINA INICIAL /*****************/
+
+.tela_inicial{
+    position: relative;
+    width: 321;
+    height: 568px;
+
+    background: radial-gradient(144.29% 98.94% at 48.13% 1.06%, #E9CBE6  0.15%, rgba(233, 203, 230, 0) 100%);
+        mix-blend-mode: normal;       
+}
+
+.titulo_inicial{
+    position: absolute;
+    left: 36px;
+    right: 36px;
+    top: 75px;
+
+    font-family: Sansation Light;
+    font-size: 60px;    
+    line-height: 60px;
+    text-align: center;
+    font-weight: lighter;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.imagem_inicial {
+    /* Imagem1 1 */
+    position: absolute;
+    top: 300px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.crie_uma_conta {
+    /* CRIE UMA CONTA */   
+    position: absolute;
+    left: 93px;
+    right: 93px;
+    top: 550px;
+    
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.crie_uma_conta a:hover {
+    text-decoration-line: underline;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.entrar {
+    position: absolute;
+    left: 138px;
+    right: 138px;
+    top: 590px;
+
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 320;
+    font-size: 16px;
+    line-height: 18px;   
+
+    /* identical to box height */
+    text-align: center;
+    align-items: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.entrar a:hover {
+    text-decoration-line: underline;
+}
+
+.logo{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 132.93px;
+    top: 524.07px;
+
+    transform: rotate(-179.61deg); 
+       
+}
+/***************** FIM PÁGINA INICIAL /*****************/
+
+/***************** CRIAR CONTA /*****************/
+ .nav {
+    font-family: Sansation Light;
+    position: absolute;
+    height: 60px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    text-align: center;
+    align-items: center; 
+ }
+
+.nav a { 
+    position: absolute;
+    height: 8px;
+    left: 4px;
+    top: 3px;
+}
+
+.CadastroEmail a {
+    position: absolute;
+
+    height: 37px;
+    left: 40px;
+    right: 39px;
+    top: 135px;
+
+    font-family: Sansation Light;
+    text-align: center;
+    align-items: center; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ou {
+    position: absolute;
+    height: 16px;
+    left: 153px;
+    right: 151px;
+    top: 192px;
+
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.EntrarGoogle {
+    position: absolute;
+    height: 37px;
+    left: 40px;
+    right: 39px;
+    top: 229px;
+
+    font-family: Sansation Light;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.EntrarFacebook {
+    position: absolute;
+    height: 37px;
+    left: 40px;
+    right: 39px;
+    top: 276px;
+
+    font-family: Sansation Light;
+    background: #F7F7F7;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.CriarUmaConta {
+    position: absolute;
+    height: 18px;
+    left: 98px;
+    right: 98px;
+    top: 90px;
+
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/***************** FIM CRIAR CONTA /*****************/
+
+/***************** META /*****************/
+.meta h1 {
+    position: absolute;
+    height: 18px;
+    left: 60px;
+    right: 60px;
+    top: 90px;
+
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.opcoes {
+    position: absolute;
+    top: 160px;
+    font-family: Sansation Light;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/***************** FIM META /*****************/
+
+/***************** VOCE /*****************/
+
+.escolha-sexo {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    right: 30px;
+    font-family: Sansation Light;
+ 
+
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.sexo {
+
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    right: 30px;
+    font-family: Sansation Light;
+ 
+
+    text-align: center;
+    align-items: center; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.data {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    right: 30px;
+    font-family: Sansation Light;
+
+    text-align: center;
+    align-items: center; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.altura {
+    position: absolute;
+    top: 330px;
+    left: 30px;
+    right: 30px;
+    font-family: Sansation Light;
+
+    text-align: center;
+    align-items: center; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.peso {
+    position: absolute;
+    top: 460px;
+    left: 30px;
+    right: 30px;
+    font-family: Sansation Light;
+
+    text-align: center;
+    align-items: center; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/***************** FIM VOCE /*****************/
+
